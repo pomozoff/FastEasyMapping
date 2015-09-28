@@ -31,6 +31,50 @@
 		1D6A3EB013A2AC7B8B7B69CE /* PersonWithCar_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A3E2CCF90DF3444D0707E /* PersonWithCar_1.json */; };
 		1D6A3FE5C05F54B80DCD6D93 /* FEMRepresentationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A328FCE22411C60FBC7C4 /* FEMRepresentationUtility.m */; };
 		1D6A3FFE3771AC234D28EA4D /* FEMMappingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A4F887B37995524457E /* FEMMappingUtility.m */; };
+		265648C11BB97EF70063F98C /* FastEasyMappingF.h in Headers */ = {isa = PBXBuildFile; fileRef = 265648C01BB97EF70063F98C /* FastEasyMappingF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648C61BB97F300063F98C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF8097B18C3AD5700C07899 /* Foundation.framework */; };
+		265648C71BB97F3D0063F98C /* FEMMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3B87ABEBEDD845682F62 /* FEMMapping.m */; };
+		265648C81BB97F3D0063F98C /* FEMAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3C63218EDC50D1C848E3 /* FEMAttribute.m */; };
+		265648C91BB97F3D0063F98C /* FEMRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3EDB0333D6F8C6AF1C22 /* FEMRelationship.m */; };
+		265648CA1BB97F3D0063F98C /* FEMSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED73028D190C49BF2E0F8D /* FEMSerializer.m */; };
+		265648CB1BB97F3D0063F98C /* FEMDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED772E50A1A831B78D48B3 /* FEMDeserializer.m */; };
+		265648CC1BB97F3D0063F98C /* FEMManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED7D24C1EE78C03CAB9C9B /* FEMManagedObjectCache.m */; };
+		265648CD1BB97F3D0063F98C /* FEMAssignmentPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3C137E92421E8D0A5E41 /* FEMAssignmentPolicy.m */; };
+		265648CE1BB97F3D0063F98C /* FEMRelationshipAssignmentContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A31CC30FC2DC11994EBA8 /* FEMRelationshipAssignmentContext.m */; };
+		265648CF1BB97F3D0063F98C /* FEMObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A30748FCFC86CFA72493D /* FEMObjectStore.m */; };
+		265648D01BB97F3D0063F98C /* FEMManagedObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A32164D7EFFBC35F34F17 /* FEMManagedObjectStore.m */; };
+		265648D11BB97F3D0063F98C /* NSArray+FEMPropertyRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED757059F6C7A26468D880 /* NSArray+FEMPropertyRepresentation.m */; };
+		265648D21BB97F3D0063F98C /* NSObject+FEMKVCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED770C14BAB15CA7926116 /* NSObject+FEMKVCExtension.m */; };
+		265648D31BB97F3D0063F98C /* FEMExcludableCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3BDA3CA0DDFF256CDB49 /* FEMExcludableCollection.m */; };
+		265648D41BB97F3D0063F98C /* FEMMergeableCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A33C793CC8D51633186DC /* FEMMergeableCollection.m */; };
+		265648D51BB97F3D0063F98C /* FEMTypeIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED7F5DB5E0C3FF6672226E /* FEMTypeIntrospection.m */; };
+		265648D61BB97F3D0063F98C /* FEMRepresentationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A328FCE22411C60FBC7C4 /* FEMRepresentationUtility.m */; };
+		265648D71BB97F3D0063F98C /* FEMMappingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A3A4F887B37995524457E /* FEMMappingUtility.m */; };
+		265648D81BB97F4B0063F98C /* FEMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3781CA28E31A3CDCE626 /* FEMProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648D91BB97F4B0063F98C /* FEMMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3DB6E70D06B240357965 /* FEMMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DA1BB97F4B0063F98C /* FEMManagedObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3E335535878DA801854C /* FEMManagedObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DB1BB97F4B0063F98C /* FEMObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3F8FD0F112B4BA9380FE /* FEMObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DC1BB97F4B0063F98C /* FEMAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A32731DF0CE9F69F54AE4 /* FEMAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DD1BB97F4B0063F98C /* FEMRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3F0C9AE4FD7FC200D09F /* FEMRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DE1BB97F4B0063F98C /* FEMSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED7C1B2AB96554F9FDF10B /* FEMSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648DF1BB97F4B0063F98C /* FEMDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED771F4A0CC2BB6D9583BC /* FEMDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E01BB97F4B0063F98C /* FEMManagedObjectDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD52DF791B03657900E46915 /* FEMManagedObjectDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E11BB97F4B0063F98C /* FEMObjectDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD52DF7B1B03657900E46915 /* FEMObjectDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E21BB97F4B0063F98C /* FEMManagedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED7DE30D50997F9408F36E /* FEMManagedObjectCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E31BB97F4B0063F98C /* FEMAssignmentPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3E68C0FB99F7A73DE0C5 /* FEMAssignmentPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E41BB97F4B0063F98C /* FEMRelationshipAssignmentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A37E108D6B12FA8587FA6 /* FEMRelationshipAssignmentContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E51BB97F4B0063F98C /* FEMRelationshipAssignmentContext+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3E939A8527DF07B8E6EB /* FEMRelationshipAssignmentContext+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648E61BB97F4B0063F98C /* FEMObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A32B1909842797CD2E0D3 /* FEMObjectStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E71BB97F4B0063F98C /* FEMManagedObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A311D0B99D619E11B0641 /* FEMManagedObjectStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648E81BB97F4B0063F98C /* NSArray+FEMPropertyRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED7645386941DA79C1E53A /* NSArray+FEMPropertyRepresentation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648E91BB97F4B0063F98C /* NSObject+FEMKVCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED769040647781DD8B196D /* NSObject+FEMKVCExtension.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648EA1BB97F4B0063F98C /* FEMExcludableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3AF6BD6EABAAACD8D4B8 /* FEMExcludableCollection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648EB1BB97F4B0063F98C /* FEMMergeableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A368ADA05F6A09F22A3AC /* FEMMergeableCollection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648EC1BB97F4C0063F98C /* FastEasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED77A829DD1436A5A2CA1B /* FastEasyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648ED1BB97F4C0063F98C /* FEMTypeIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED7E6CB1B484C7F335B55F /* FEMTypeIntrospection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		265648EE1BB97F4C0063F98C /* FEMTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 69ED7A8B2E60F728B99A0CB9 /* FEMTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648EF1BB97F4C0063F98C /* FEMRepresentationUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A3E942488A7A8C0C01C0C /* FEMRepresentationUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265648F01BB97F4C0063F98C /* FEMMappingUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A34B621512A2FE61ECE26 /* FEMMappingUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C375F1318CCD3FB00FCB8EA /* EasyMappingCoreDataExample.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C375F1018CCBC2900FCB8EA /* EasyMappingCoreDataExample.xcdatamodel */; };
 		2C375F1418CCD3FB00FCB8EA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED767EE6E89A487714CDF8 /* Car.m */; };
 		2C375F1518CCD3FB00FCB8EA /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED75A1803E4FA721E79895 /* Phone.m */; };
@@ -159,6 +203,9 @@
 		1D6A3EDB0333D6F8C6AF1C22 /* FEMRelationship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMRelationship.m; sourceTree = "<group>"; };
 		1D6A3F0C9AE4FD7FC200D09F /* FEMRelationship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMRelationship.h; sourceTree = "<group>"; };
 		1D6A3F8FD0F112B4BA9380FE /* FEMObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMObjectMapping.h; sourceTree = "<group>"; };
+		265648BE1BB97EF70063F98C /* FastEasyMappingF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastEasyMappingF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		265648C01BB97EF70063F98C /* FastEasyMappingF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastEasyMappingF.h; sourceTree = "<group>"; };
+		265648C21BB97EF70063F98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29060352558D8EB5B9B013A4 /* Pods-FastEasyMappingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastEasyMappingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastEasyMappingTests/Pods-FastEasyMappingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C375F1018CCBC2900FCB8EA /* EasyMappingCoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyMappingCoreDataExample.xcdatamodel; sourceTree = "<group>"; };
 		2C9A6B49F30D4D58A8309D61 /* libPods-FastEasyMappingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastEasyMappingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +288,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		265648BA1BB97EF70063F98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265648C61BB97F300063F98C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CF8097518C3AD5700C07899 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,11 +353,21 @@
 			path = Store;
 			sourceTree = "<group>";
 		};
+		265648BF1BB97EF70063F98C /* FastEasyMappingF */ = {
+			isa = PBXGroup;
+			children = (
+				265648C01BB97EF70063F98C /* FastEasyMappingF.h */,
+				265648C21BB97EF70063F98C /* Info.plist */,
+			);
+			path = FastEasyMappingF;
+			sourceTree = "<group>";
+		};
 		2CF8096F18C3AD5700C07899 = {
 			isa = PBXGroup;
 			children = (
 				2CF8097D18C3AD5700C07899 /* FastEasyMapping */,
 				69ED720C98F96CE291122AD4 /* FastEasyMappingTests */,
+				265648BF1BB97EF70063F98C /* FastEasyMappingF */,
 				2CF8097A18C3AD5700C07899 /* Frameworks */,
 				2CF8097918C3AD5700C07899 /* Products */,
 				5FAEC03A97C364859D2463A3 /* Pods */,
@@ -314,6 +379,7 @@
 			children = (
 				2CF8097818C3AD5700C07899 /* libFastEasyMapping.a */,
 				2CF8098818C3AD5700C07899 /* FastEasyMappingTests.xctest */,
+				265648BE1BB97EF70063F98C /* FastEasyMappingF.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -571,6 +637,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		265648BB1BB97EF70063F98C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265648C11BB97EF70063F98C /* FastEasyMappingF.h in Headers */,
+				265648D81BB97F4B0063F98C /* FEMProperty.h in Headers */,
+				265648D91BB97F4B0063F98C /* FEMMapping.h in Headers */,
+				265648DA1BB97F4B0063F98C /* FEMManagedObjectMapping.h in Headers */,
+				265648DB1BB97F4B0063F98C /* FEMObjectMapping.h in Headers */,
+				265648DC1BB97F4B0063F98C /* FEMAttribute.h in Headers */,
+				265648DD1BB97F4B0063F98C /* FEMRelationship.h in Headers */,
+				265648DE1BB97F4B0063F98C /* FEMSerializer.h in Headers */,
+				265648DF1BB97F4B0063F98C /* FEMDeserializer.h in Headers */,
+				265648E01BB97F4B0063F98C /* FEMManagedObjectDeserializer.h in Headers */,
+				265648E11BB97F4B0063F98C /* FEMObjectDeserializer.h in Headers */,
+				265648E21BB97F4B0063F98C /* FEMManagedObjectCache.h in Headers */,
+				265648E31BB97F4B0063F98C /* FEMAssignmentPolicy.h in Headers */,
+				265648E41BB97F4B0063F98C /* FEMRelationshipAssignmentContext.h in Headers */,
+				265648E61BB97F4B0063F98C /* FEMObjectStore.h in Headers */,
+				265648E71BB97F4B0063F98C /* FEMManagedObjectStore.h in Headers */,
+				265648EC1BB97F4C0063F98C /* FastEasyMapping.h in Headers */,
+				265648EE1BB97F4C0063F98C /* FEMTypes.h in Headers */,
+				265648EF1BB97F4C0063F98C /* FEMRepresentationUtility.h in Headers */,
+				265648F01BB97F4C0063F98C /* FEMMappingUtility.h in Headers */,
+				265648E51BB97F4B0063F98C /* FEMRelationshipAssignmentContext+Internal.h in Headers */,
+				265648E81BB97F4B0063F98C /* NSArray+FEMPropertyRepresentation.h in Headers */,
+				265648E91BB97F4B0063F98C /* NSObject+FEMKVCExtension.h in Headers */,
+				265648EA1BB97F4B0063F98C /* FEMExcludableCollection.h in Headers */,
+				265648EB1BB97F4B0063F98C /* FEMMergeableCollection.h in Headers */,
+				265648ED1BB97F4C0063F98C /* FEMTypeIntrospection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CF809A118C3AE6E00C07899 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +705,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		265648BD1BB97EF70063F98C /* FastEasyMappingF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265648C51BB97EF70063F98C /* Build configuration list for PBXNativeTarget "FastEasyMappingF" */;
+			buildPhases = (
+				265648B91BB97EF70063F98C /* Sources */,
+				265648BA1BB97EF70063F98C /* Frameworks */,
+				265648BB1BB97EF70063F98C /* Headers */,
+				265648BC1BB97EF70063F98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastEasyMappingF;
+			productName = FastEasyMappingF;
+			productReference = 265648BE1BB97EF70063F98C /* FastEasyMappingF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2CF8097718C3AD5700C07899 /* FastEasyMapping */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF8099B18C3AD5700C07899 /* Build configuration list for PBXNativeTarget "FastEasyMapping" */;
@@ -651,6 +768,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Yalantis;
 				TargetAttributes = {
+					265648BD1BB97EF70063F98C = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					2CF8098718C3AD5700C07899 = {
 						TestTargetID = 2CF8097718C3AD5700C07899;
 					};
@@ -670,11 +790,19 @@
 			targets = (
 				2CF8097718C3AD5700C07899 /* FastEasyMapping */,
 				2CF8098718C3AD5700C07899 /* FastEasyMappingTests */,
+				265648BD1BB97EF70063F98C /* FastEasyMappingF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		265648BC1BB97EF70063F98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CF8098618C3AD5700C07899 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -706,6 +834,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		265648B91BB97EF70063F98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265648C71BB97F3D0063F98C /* FEMMapping.m in Sources */,
+				265648C81BB97F3D0063F98C /* FEMAttribute.m in Sources */,
+				265648C91BB97F3D0063F98C /* FEMRelationship.m in Sources */,
+				265648CA1BB97F3D0063F98C /* FEMSerializer.m in Sources */,
+				265648CB1BB97F3D0063F98C /* FEMDeserializer.m in Sources */,
+				265648CC1BB97F3D0063F98C /* FEMManagedObjectCache.m in Sources */,
+				265648CD1BB97F3D0063F98C /* FEMAssignmentPolicy.m in Sources */,
+				265648CE1BB97F3D0063F98C /* FEMRelationshipAssignmentContext.m in Sources */,
+				265648CF1BB97F3D0063F98C /* FEMObjectStore.m in Sources */,
+				265648D01BB97F3D0063F98C /* FEMManagedObjectStore.m in Sources */,
+				265648D11BB97F3D0063F98C /* NSArray+FEMPropertyRepresentation.m in Sources */,
+				265648D21BB97F3D0063F98C /* NSObject+FEMKVCExtension.m in Sources */,
+				265648D31BB97F3D0063F98C /* FEMExcludableCollection.m in Sources */,
+				265648D41BB97F3D0063F98C /* FEMMergeableCollection.m in Sources */,
+				265648D51BB97F3D0063F98C /* FEMTypeIntrospection.m in Sources */,
+				265648D61BB97F3D0063F98C /* FEMRepresentationUtility.m in Sources */,
+				265648D71BB97F3D0063F98C /* FEMMappingUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CF8097418C3AD5700C07899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -783,6 +935,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		265648C31BB97EF70063F98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FastEasyMappingF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.FastEasyMappingF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		265648C41BB97EF70063F98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FastEasyMappingF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.akademon.FastEasyMappingF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2CF8099918C3AD5700C07899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -919,6 +1128,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		265648C51BB97EF70063F98C /* Build configuration list for PBXNativeTarget "FastEasyMappingF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265648C31BB97EF70063F98C /* Debug */,
+				265648C41BB97EF70063F98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2CF8097318C3AD5700C07899 /* Build configuration list for PBXProject "FastEasyMapping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
